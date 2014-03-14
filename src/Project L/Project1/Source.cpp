@@ -22,7 +22,7 @@ int main()
 	// io ();
 	pointers();
 	
-	Sleep(1000); // Windows
+	Sleep(2000); // Windows
 
 	return 0;
 }
