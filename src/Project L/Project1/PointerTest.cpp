@@ -4,13 +4,14 @@
 
 PointerTest::PointerTest()
 {
-	std::cout << "This is gonna be hairy..." << std::endl;
-
+	std::cout << "This is gonna be hairy..." << std::endl << std::endl;
 }
 
-int PointerTest::EasyTest(int i)
+void PointerTest::EasyTest(int i)
 {
 	easy = &i;
-
-	return *easy;
+	for (int loop = 0; loop < 10; loop++) {
+		*easy += 1;
+		std::cout << "easy: " << easy << ", &easy: " << &easy << ", *easy: " << *easy << std::endl;
+	}
 }

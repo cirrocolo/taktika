@@ -14,7 +14,7 @@
 void pointers() // basic and advanced pointers handling
 {
 	PointerTest pointer_test;
-	std::cout << pointer_test.EasyTest(1000) << std::endl;
+	pointer_test.EasyTest(50);
 }
 
 int main()
@@ -22,7 +22,7 @@ int main()
 	// io ();
 	pointers();
 	
-	Sleep(2000); // Windows
+	Sleep(10000); // Windows
 
 	return 0;
 }

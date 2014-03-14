@@ -3,7 +3,7 @@ ref class PointerTest
 {
 public:
 	PointerTest();
-	int EasyTest(int);
+	void EasyTest(int);
 private:
 	int* easy = nullptr;
 };
